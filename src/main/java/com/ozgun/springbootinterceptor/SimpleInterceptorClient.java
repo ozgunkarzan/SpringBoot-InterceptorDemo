@@ -12,7 +12,7 @@ public class SimpleInterceptorClient {
 
     private final RestClient restClient;
 
-    public static final Logger logger = LoggerFactory.getLogger(SimpleInterceptorClient.class);
+   // public static final Logger logger = LoggerFactory.getLogger(SimpleInterceptorClient.class);
     public SimpleInterceptorClient(RestClient.Builder restClientBuilder, ClientHttpRequestInterceptor myInterceptor) {
         this.restClient = restClientBuilder
                 .baseUrl("https://jsonplaceholder.typicode.com")
